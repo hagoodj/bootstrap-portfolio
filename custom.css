@@ -40,6 +40,15 @@ li:nth-child(2) {
     padding: 10px;
 }
 
+#footer {
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    border-top: #4aaaa5 solid 10px;
+    height:60px;
+}
+
+/* About Me */
 .row2 {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -51,10 +60,7 @@ li:nth-child(2) {
     margin-right: 10px;
 }
 
-#footer {
-    background-color: darkgray;
-    text-align: center;
-    color: white;
-    border-top: #4aaaa5 solid 10px;
-    height:60px;
-}
+/* Portfolio */
+
+
+/* Contact */
