@@ -1,0 +1,7 @@
+body {
+    background-image: url("interlaced.png");
+}
+
+.navbar {
+    border: #cccccc solid 1px;
+}
