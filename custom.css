@@ -27,3 +27,11 @@ li:first-child {
 li:nth-child(2) {
     border-right: 1px solid #dddddd;
 }
+
+#footer {
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    border-top: #4aaaa5 solid 10px;
+    height:60px;
+}
