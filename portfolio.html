@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="custom.css">
 
@@ -13,29 +14,24 @@
   </head>
   <body>
         
-      <nav class="navbar navbar-expand-lg navbar-dark bg-white">
-          <div class="d-flex flex-grow-1">
-              <span class="w-100 d-lg-none d-block"></span>
-              <h1><span class="badge badge-primary">Jordan Hagood</span></h1>
-              <div class="w-100 text-right">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
-              </div>
-          </div>
-          <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
-              <ul class="navbar-nav ml-auto flex-nowrap">
-                  <li class="nav-item">
-                      <a href="./index.html" class="nav-link text-secondary">About Me</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="./portfolio.html" class="nav-link text-secondary">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="./contact.html" class="nav-link text-secondary">Contact</a>
-                  </li>
-              </ul>
-          </div>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <h1><span class="badge badge-primary">Jordan Hagood</span></h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="./index.html" class="nav-link text-secondary">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a href="./portfolio.html" class="nav-link text-secondary">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a href="./contact.html" class="nav-link text-secondary">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
       <br><br>
 
@@ -44,28 +40,22 @@
           <h2>Portfolio</h2> 
         </div>
         <div class = "row projects">
-            <div class = "col-md-4">
-                <div class= "row justify-content-md-center">
-                    <a href="https://hagoodj.github.io/hw-wireframe/"><img src="../hw-wireframe/wireframe.jpg" width="200" height="200" title="Website" alt="Website Layout Project"></a>
+            <div class = "col-md-4 col-sm-6 col-xs-12">
+                <div class= "row justify-content-md-center projectrows">
+                    <a href="https://hagoodj.github.io/hw-wireframe/"><img src="./wireframe.JPG" width="200" height="200" title="Website" alt="Website Layout Project"></a>
+                    <h6 class = "labels">Website Layout</h6>
                 </div>
-                <div class= "row justify-content-md-center">
-                    <h5>Website Layout Project</h5>
-                </div>
-                </div>
-            <div class = "col-md-4">
-                <div class= "row justify-content-md-center">
+            </div>
+            <div class = "col-md-4 col-sm-6 col-xs-12">
+                <div class= "row justify-content-md-center projectrows">
                     <a href="https://hagoodj.github.io/hw-wireframe2/"><img src="./bioplaceholder.jpg" width="200" height="200" title="About Me" alt="Portfolio Project"></a>
-                </div>
-                <div class= "row justify-content-md-center">
-                    <h5>Portfolio  Project</h5>
+                    <h6 class = "labels">Portfolio Project</h6>
+                </div>                
             </div>
-            </div>
-                <div class = "col-md-4">
-                    <div class= "row justify-content-md-center">
-                        <a href="https://hagoodj.github.io/bootstrap-portfolio/"><img src="./bootstrap-portfolio.jpg" width="200" height="200" title="Website" alt="Bootstrap Portfolio Project"></a>
-                    </div>
-                    <div class= "row justify-content-md-center">
-                        <h5>Bootstrap Portfolio  Project</h5>
+            <div class = "col-md-4 col-sm-6 col-xs-12">
+                <div class= "row justify-content-md-center projectrows">
+                    <a href="https://hagoodj.github.io/bootstrap-portfolio/"><img src="./bootstrap-portfolio.JPG" width="200" height="200" title="Website" alt="Bootstrap Portfolio Project"></a>
+                    <h6 class = "labels">Bootstrap Portfolio</h6>
                 </div>
             </div>    
         </div>        
